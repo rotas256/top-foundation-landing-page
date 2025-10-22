@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
@@ -41,7 +41,7 @@ a{
 
 .nav-list{
     display: flex;
-    gap: 32px;
+    gap: 40px;
 }
 .nav-item a{
     font-size: 18px;
@@ -93,4 +93,5 @@ a{
     padding: 8px 32px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
