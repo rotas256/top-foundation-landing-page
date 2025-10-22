@@ -31,7 +31,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 .header-logo{
@@ -58,4 +58,39 @@ a{
 
 .main{
     flex: 1;
+}
+
+.hero{
+    padding: 80px 20px;
+    background-color: #1F2937;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+    line-height: 1.2;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0 16px;
+}
+.hero-signup{
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: none;
 }
