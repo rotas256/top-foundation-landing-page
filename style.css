@@ -23,6 +23,7 @@ a{
     flex-direction: column;
 }
 
+/* Header */
 .header{
     padding: 20px;
     background-color: #1F2937;
@@ -48,6 +49,7 @@ a{
     color: #E5E7EB;
 }
 
+/* Footer */
 .footer{
     display: flex;
     justify-content: center;
@@ -56,10 +58,12 @@ a{
     color: #E5E7EB;
 }
 
+/* Main contents */
 .main{
     flex: 1;
 }
 
+/* Hero section */
 .hero{
     padding: 80px 20px;
     background-color: #1F2937;
@@ -95,3 +99,42 @@ a{
     border: none;
     cursor: pointer;
 }
+
+/* Information section */
+.information{
+    padding: 80px 20px;
+}
+.info-content{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.info-heading{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+.info-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.info-item{
+    width: 180px;
+}
+.info-item__img{
+    width: 100%;
+    border-radius: 20px;
+    border: solid 4px #3882F6;
+}
+.info-item__text{
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+/* Quote section */
+
+
+/* CTA section */
