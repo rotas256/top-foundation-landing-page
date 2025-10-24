@@ -109,12 +109,14 @@ a{
     margin: 0 auto;
 }
 .info-heading{
+    margin: 0;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
 }
 .info-items{
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -153,8 +155,41 @@ a{
 .quote-author{
     margin: 0;
     text-align: end;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 /* CTA section */
+.cta{
+    padding: 100px 20px;
+}
+.cta-content{
+    max-width: 1040px;
+    margin: 0 auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-heading{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.cta-text{
+    margin: 10px 0 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.cta-signup{
+    font-size: 18px; 
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: solid 1px #E5E7EB;
+    cursor: pointer;
+}
